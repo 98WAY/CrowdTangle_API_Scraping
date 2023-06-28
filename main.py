@@ -17,9 +17,6 @@ if __name__ == '__main__':
 
     create('extracted_groups.csv')
     
-    current_time = datetime.datetime.now()
-    formatted_time = current_time.strftime("%H:%M:%S")
-    print("Current time:", formatted_time)    
     
 while start_date <= end_date:
     # Set the start_date and end_date for the current month
@@ -34,10 +31,7 @@ while start_date <= end_date:
 
     # Call the fetch_all_posts function with the current date range
     result_posts = fetch_all_posts(token, list_id, count_per_request, current_start_date, current_end_date)
-    print(len(result_posts))
-    current_time = datetime.datetime.now()
-    formatted_time = current_time.strftime("%H:%M:%S")
-    print("Current time:", formatted_time)    
+    print(len(result_posts)) 
     # Process the retrieved posts as needed
     write_to_csv(result_posts, 'extracted_groups.csv')
 
