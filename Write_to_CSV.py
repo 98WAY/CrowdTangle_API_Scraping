@@ -37,7 +37,6 @@ def write_to_csv(result: list, filename: str):
         statistics = post['statistics']['actual']
         expanded_links = post.get('expandedLinks', [{}])
         expanded = expanded_links[0].get('expanded', '')
-        #extract data
         like = statistics['likeCount']
         comment = statistics['commentCount']
         share = statistics['shareCount']
@@ -49,7 +48,6 @@ def write_to_csv(result: list, filename: str):
         thankful = statistics['thankfulCount']    
         care = statistics.get('careCount',0)
         Total_Interaction = like+comment+share+love+wow+haha+sad+angry+thankful+care
-        
         
         post_data = [
             account.get('name', ''),
@@ -92,8 +90,5 @@ def write_to_csv(result: list, filename: str):
     # Write the extracted data to a CSV file    
     with open(filename, 'a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
-        
         # Write the data rows
         writer.writerows(data)
-    
-    print(f'Data extracted and saved to {filename}.')
