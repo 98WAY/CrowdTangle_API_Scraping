@@ -12,6 +12,10 @@ fetch_all_posts():  retrieve all public posts from a list in the time interval b
                     and end_date, return a list
 
 ### Write_to_CSV.py
-create(filename:str): create a csv file
+create(): create a csv file
 
-write_to_csv(result: list, filename: str): write
+write_to_csv(): write data from fetch_all_posts() to csv file, the default timezone of the [post time data is UTC
+
+## Example
+main.py under CT_Scrape shows an example to scrape all public posts ranging from 2019/12/31 to 2023/06/22 with given
+CrowdTangle API token and list id of potential extremist pages or groups.
