@@ -7,6 +7,7 @@ import json
 import datetime
 
 if __name__ == '__main__':
+    #retrieve data from 2019-12-31 00:00:00 to 2023-06-21 23:59:59 based on UTC timezone
     start_date = datetime.date(2019, 12, 31)
     end_date = datetime.date(2023, 6, 22)
     token = ""
