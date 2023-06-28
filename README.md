@@ -1,21 +1,8 @@
-# Scrape public posts from a list with CrowdTangle API
-A Python Scraping script to store CrowdTangle data into SCV file
+# Python Script to process data from CrowdTangle API
+Time interval: 2019-12-31 00:00:00 to 2023-06-21 23:59:59 base on UTC timezone
 
 ## Usage
+sorted_extracted_pages.csv: Facebook pages public posts sorted by group and date from most recent to oldest for each page, 67664 posts in total
 
-### Scrape.py
-ct_get_posts(count = 100, start_date = None, end_date = None, include_history= None,
-                 sort_by='date', types=None, search_term=None, timeframe=None,
-                 min_interactions = 0, offset = 0, api_token=None, listid=None) :
-                 modified based on PyCrowdTangle [https://pypi.org/project/PyCrowdTangle],
-                 retrieve public posts through CrowdTangle API with given token, listid
-                 and other constraints, return a list containing json data as result
-                 
-fetch_all_posts(token, list_id, count_per_request, start_date, end_date):          
-                retrieve all public posts from a list in the time interval between start_date
-                and end_date, return a list
+sorted_extracted_groups.csv: Facebook groups public posts sorted by group and date from most recent to oldest for each group, 19490 posts in total
 
-### Write_to_CSV.py
-create(filename:str): create a csv file
-
-write_to_csv(result: list, filename: str): write
