@@ -13,6 +13,7 @@ def fetch_and_write_posts(start_date, end_date, token, list_id, count_per_reques
         if start_date.month == 12:
             current_end_date = datetime.date(start_date.year + 1, 1, 1)
         elif start_date.month == 6 and start_date.year == 2023:
+        # modify the date to avoid exceed the end_date, in this example case is 2023-06-22 00:00:00
             current_end_date = datetime.date(start_date.year, start_date.month, 22)
         else:
             current_end_date = start_date.replace(month=start_date.month+1, day=1)
