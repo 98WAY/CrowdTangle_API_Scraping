@@ -8,7 +8,7 @@ The Facebook pages included are: @NoarHagvaot, @ReportYourself, @WeAreIgbos, Voi
 
 The Facebook groups included are:I HATE THE ZOO( NIGERIA), New World Order, NEW WORLD ORDER EXPOSURE, NEW WORLD ORDER ☆) | Facebook, NAAWP.US, Counter Current News
 
-sorted_extracted_pages.csv: Facebook pages public posts sorted by group and date from most recent to oldest for each page, 67664 posts in total
+page_posts.csv: Facebook pages public posts sorted by group and date from most recent to oldest for each page, 67664 posts in total
 
-sorted_extracted_groups.csv: Facebook groups public posts sorted by group and date from most recent to oldest for each group, 19490 posts in total
+group_posts.csv: Facebook groups public posts sorted by group and date from most recent to oldest for each group, 19490 posts in total
 
