@@ -24,8 +24,10 @@ page_posts.csv: Facebook pages public posts sorted by group and date from most r
 group_posts.csv: Facebook groups public posts sorted by group and date from most recent to oldest for each group, 19490 posts in total
 
 ## Example
-main.py under CT_Scrape shows an example to scrape all public posts ranging from 2019/12/31 to 2023/06/22 based on UTC timezone with given
-CrowdTangle API token and list id of potential extremist pages or groups.
+main.py shows an example to scrape all public posts ranging from 2019/12/31 to 2023/06/22 based on UTC timezone with given
+CrowdTangle API token and list id of potential extremist pages or groups. The optional functions of fliter by US Eastern timezone, 
+group by account, sort by date is also given in main.py.
+
 Failed to find Heinz-Christian Strache | Facebook, Tom Sunic in CrowdTAngle 
 
 Further data process are in Dtaprocess branch.
