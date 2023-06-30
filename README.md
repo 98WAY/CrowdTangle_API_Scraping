@@ -17,6 +17,8 @@ create(): create a csv file
 write_to_csv(): write data from fetch_all_posts() to csv file, the default timezone of the [post time data is UTC
 
 ### CSV files
+The flitered data ranges from 2020-01-01 00:00:00 to 2023-06-20 23:59:59 based on US/Eastern Timezone.
+
 page_posts.csv: Facebook pages public posts sorted by group and date from most recent to oldest for each page, 67664 posts in total
 
 group_posts.csv: Facebook groups public posts sorted by group and date from most recent to oldest for each group, 19490 posts in total
