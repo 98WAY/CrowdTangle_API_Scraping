@@ -16,6 +16,11 @@ create(): create a csv file
 
 write_to_csv(): write data from fetch_all_posts() to csv file, the default timezone of the [post time data is UTC
 
+### CSV files
+page_posts.csv: Facebook pages public posts sorted by group and date from most recent to oldest for each page, 67664 posts in total
+
+group_posts.csv: Facebook groups public posts sorted by group and date from most recent to oldest for each group, 19490 posts in total
+
 ## Example
 main.py under CT_Scrape shows an example to scrape all public posts ranging from 2019/12/31 to 2023/06/22 based on UTC timezone with given
 CrowdTangle API token and list id of potential extremist pages or groups.
