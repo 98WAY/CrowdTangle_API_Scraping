@@ -32,3 +32,6 @@ Failed to find Heinz-Christian Strache | Facebook, Tom Sunic in CrowdTAngle
 
 Further data process are in Dtaprocess branch.
 
+
+google slide:https://docs.google.com/presentation/d/1I7U8S8QVmk9oBHBW9gi-ErW76nA3JD3PziBQpfJJrM0/edit#slide=id.g25611222ed0_0_259
+
