@@ -135,7 +135,7 @@ def filter_data_by_date_range(filename):
 if __name__ == '__main__':
     start_date = datetime.date(2019, 12, 31)
     end_date = datetime.date(2023, 6, 22)
-    token = " " #"Tm3mU0VqFtchygsnOILeKjiYaynKqWsWZpnyvYpn"
+    token = " " #"APIKEY Tm3mU0VqFtchygsnOILeKjiYaynKqWsWZpnyvYpn"
     list_id = 1779953 # 1780534
     count_per_request = 100
     filename = 'extracted_pages.csv' # 'extracted_pages.csv'
