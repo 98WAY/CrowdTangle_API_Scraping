@@ -146,7 +146,7 @@ if __name__ == '__main__':
     print("Current time:", current_time)
     #input_file = "group_post_messages.csv"
     #output_file = "group_post_message_scores.csv"
-    API_KEY = "AIzaSyC8qyWiGGX3D8FNScIY9EW-K4l_66Hvqn8"  # Replace with your actual API key
+    API_KEY = ""  # Replace with your actual API key
     analyze_post_content("ppds_e_en.csv", "ppds_e_scores.csv", API_KEY, "translated_content")
     
     #classify_error_rows("group_post_description_scores.csv", "gpds_no_error.csv", "gpds_error.csv")
